@@ -1,0 +1,60 @@
+# ==============================
+# CRESTRON - COMPILED OUTPUT
+# ==============================
+
+# Compiled program files
+*.lpz
+*.clz
+
+# SIMPL+ compiled modules
+*.umc
+
+# .NET/SimplSharp compiled assemblies
+*.dll
+
+# Touch panel compiled archives
+*.vtz
+
+# ==============================
+# CRESTRON - HASHES & MANIFESTS
+# ==============================
+*.lpz.hash
+*.VTZ.hash
+*.sig
+*_Manifest.arcv
+
+# ==============================
+# CRESTRON - COMPILED ARCHIVES
+# ==============================
+*_compiled.zip
+*_archive.zip
+
+# ==============================
+# CRESTRON - GENERATED FILES
+# ==============================
+
+# SimplSharp component metadata and runtime data
+*.inf
+*.dat
+*.dat.der
+
+# Vendor-bundled documentation
+*.pdf
+
+# ==============================
+# CRESTRON - EDITOR BACKUPS
+# ==============================
+*.smw.ASV
+*.vtp.ASV
+*.sgd_
+
+# ==============================
+# OS / SYSTEM FILES
+# ==============================
+.DS_Store
+Thumbs.db
+
+# ==============================
+# LOCAL IDE SETTINGS
+# ==============================
+.claude/
